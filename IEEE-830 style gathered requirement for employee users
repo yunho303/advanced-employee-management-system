@@ -2,43 +2,43 @@ IEEE-830 형식으로 작성되어 있습니다.
 피관리자 사용자를 대상으로 작성되어 있습니다.
 Priority는 1~4이며 1은 최하, 4가 최상입니다.
 
-REQ-22 (FR/3): The system should send message to administer account's "Account management" section for registration approval
+REQ-21 (FR/3): The system should send message to administer account's "Account management" section for registration approval
 시스템은 관리자 계정의 "계정 관리" 섹션에 가입 허용 메시지를 보내야 합니다
-REQ-23 (FR/4): The system shall show menu, which offers options (“Payment”, “Leave request/progress”, “Calendar”, “Suggestion box”, “Retirement/Absence”) after sign-up through employee mode
+REQ-22 (FR/4): The system shall show menu, which offers options (“Payment”, “Leave request/progress”, “Calendar”, “Suggestion box”, “Retirement/Absence”) after sign-up through employee mode
 시스템은 피관리자로 로그인 시 “급여 정보”, “휴가 관리”, “일정 관리”, “건의함”, “퇴직/휴직 신청” 메뉴를 보여야 합니다
-REQ-24 (NFR/1): The system should display option “back” for every screen, after selecting one of those options (“Payment”, “Leave request/progress”, “Calendar”, “Suggestion box”, “Retirement/Absence”) 
+REQ-23 (NFR/1): The system should display option “back” for every screen, after selecting one of those options (“Payment”, “Leave request/progress”, “Calendar”, “Suggestion box”, “Retirement/Absence”) 
 시스템은 모든 화면에서 “뒤로 가기” 버튼으로 옵션 선택을 할 수 있는 화면으로 돌아갈 수 있게 합니다
-REQ-25 (FR/4): The system should show information about payment in table, after selecting “Payment”
+REQ-24 (FR/4): The system should show information about payment in table, after selecting “Payment”
 시스템은 사용자가 “급여 정보” 옵션을 선택하면 표로 이루어진 급여 정보(출근, 야근, 추가수당, 보너스, 총 월급)을 제공해야 합니다
-REQ-26 (FR/2): The system should “Leave request” and “Request progress” option, after selecting “Leave request/progress”
+REQ-25 (FR/2): The system should “Leave request” and “Request progress” option, after selecting “Leave request/progress”
 시스템은 사용자가 ”휴가 관리”를 선택하면 “휴가 신청”과 “신청 현황” 옵션을 표시합니다
-REQ-27 (FR/3): The system shall show calendar, comment box for writing reason to request leave, and “Request” button, after selecting “Leave request”
+REQ-26 (FR/3): The system shall show calendar, comment box for writing reason to request leave, and “Request” button, after selecting “Leave request”
 시스템은 사용자가 “휴가 신청”을 선택하면 달력과 휴가 신청 사유를 적을 수 있는 코멘트 란, 그리고 “신청하기” 버튼을 보입니다
-REQ-28 (NFR/2): The system should avoid deactivate “Request” button if user had not chosen the date
+REQ-27 (NFR/2): The system should avoid deactivate “Request” button if user had not chosen the date
 시스템은 사용자가 날짜를 선택하지 않은 경우 “신청하기” 버튼을 비활성화합니다
-REQ-29 (NFR/1): The system should show display message “Request had been complete”, after selecting activated “Request” button.
+REQ-28 (NFR/1): The system should show display message “Request had been complete”, after selecting activated “Request” button.
 시스템은 활성화된 “신청하기” 버튼을 누르면 “신청이 완료되었습니다” 메시지를 표시해야 합니다
-REQ-30 (FR/2): The system shall show the progress of previous requests, after selecting “Request progress”
+REQ-29 (FR/2): The system shall show the progress of previous requests, after selecting “Request progress”
 시스템은 “신청 현황” 화면에서 이전 휴가 신청에 대한 허가 상태를 표시해야 합니다
-REQ-31 (FR/4): The system shall show the calendar with company’s schedule and Request progresses, after selecting "Schedule".
+REQ-30 (FR/4): The system shall show the calendar with company’s schedule and Request progresses, after selecting "Schedule".
 시스템은 사용자가 “일정 관리”를 선택하면 회사의 스케쥴과 휴가 일정이 포함된 달력을 표시해야 합니다
-REQ-32 (FR/1): The system should show two options: “Retirement” and “Absence” for “Retirement/Absence” menu
+REQ-31 (FR/1): The system should show two options: “Retirement” and “Absence” for “Retirement/Absence” menu
 시스템은 “퇴직/휴직 신청”에서 “퇴직” 과 “휴직” 메뉴를 선택할 수 있게 합니다
-REQ-33 (FR/2): The system should show file upload section for submitting documentation, and “Request” button, after selecting “Retirement” and “Absence”
+REQ-32 (FR/2): The system should show file upload section for submitting documentation, and “Request” button, after selecting “Retirement” and “Absence”
 시스템은 퇴직, 혹은 휴직 단계에서 필요한 문서를 업로드 할 수 있는 업로드 란과 신청하기 버튼을 표시해야 합니다
-REQ-34 (FR/3): The system shall show a bulletin board with some articles written by other employee and user self, after selecting “Suggestion box”
+REQ-33 (FR/3): The system shall show a bulletin board with some articles written by other employee and user self, after selecting “Suggestion box”
 시스템은 사용자가 “건의함” 메뉴를 선택 시 다른 이용자 혹은 사용자 본인이 작성한 글이 게시된 게시판을 표시해야 합니다
-REQ-35 (FR/2): The system shall allow users to write new article by clicking on “Post new article”
+REQ-34 (FR/2): The system shall allow users to write new article by clicking on “Post new article”
 시스템은 사용자가 “새 글 쓰기” 버튼을 클릭해 새로운 글을 작성할 수 있게 해야 합니다
-REQ-36 (NFR/2): The system should display writing area and submit button
+REQ-35 (NFR/2): The system should display writing area and submit button
 시스템은 사용자에게 작성 란과 “등록하기” 버튼을 표시해야 합니다
-REQ-37 (NFR/1): The system should provide check box to choose for whether user wants to show article to everyone or show it to administer only
+REQ-36 (NFR/1): The system should provide check box to choose for whether user wants to show article to everyone or show it to administer only
 시스템은 사용자에게 작성 글을 공개할지 관리자에게만 공개할 지 정할 수 있는 체크박스를 제공해야 합니다.
-REQ-38 (NFR/1): The system should display article written by other users, after clicking one of the articles on the bulletin mark
+REQ-37 (NFR/1): The system should display article written by other users, after clicking one of the articles on the bulletin mark
 시스템은 사용자가 게시판에서 다른 사용자가 작성한 글을 선택하면 해당 글을 표시해야 합니다.
-REQ-39 (FR/2): The system shall record log-in information of user periodically
+REQ-38 (FR/2): The system shall record log-in information of user periodically
 시스템은 사용자의 로그인 여부를 주기적으로 기록해야 합니다
-REQ-40 (NFR/2) The system should display log-out button at the horizontally opposite side from “back” button on main menu(“Payment”, “Leave request/progress”, “Calendar”, “Suggestion box”, “Retirement/Absence”)
+REQ-39 (NFR/2) The system should display log-out button at the horizontally opposite side from “back” button on main menu(“Payment”, “Leave request/progress”, “Calendar”, “Suggestion box”, “Retirement/Absence”)
 시스템은 로그아웃 버튼을 메인 메뉴(“급여 정보”, “휴가 관리”, “일정 관리”, “건의함”, “퇴직/휴직 신청”)의 뒤로 가기 버튼의 수평상 반대 편에 배치해야 합니다
-REQ-41 (NFR/3): The system shall automatically re-login if user’s information is “Logged in” and user had closed the app in the past
+REQ-40 (NFR/3): The system shall automatically re-login if user’s information is “Logged in” and user had closed the app in the past
 시스템은 만약 사용자의 로그인 여부가 “로그인 했음”이며 과거 어플을 종료했으면 자동으로 다시 로그인해야 합니다
