@@ -20,7 +20,7 @@ REQ-29 (NFR/1): The system should show display message “Request had been compl
 시스템은 활성화된 “신청하기” 버튼을 누르면 “신청이 완료되었습니다” 메시지를 표시해야 합니다
 REQ-30 (FR/2): The system shall show the progress of previous requests, after selecting “Request progress”
 시스템은 “신청 현황” 화면에서 이전 휴가 신청에 대한 허가 상태를 표시해야 합니다
-REQ-31 (FR/4): The system shall show the calendar with company’s schedule and Request progresses.
+REQ-31 (FR/4): The system shall show the calendar with company’s schedule and Request progresses, after selecting "Schedule".
 시스템은 사용자가 “일정 관리”를 선택하면 회사의 스케쥴과 휴가 일정이 포함된 달력을 표시해야 합니다
 REQ-32 (FR/1): The system should show two options: “Retirement” and “Absence” for “Retirement/Absence” menu
 시스템은 “퇴직/휴직 신청”에서 “퇴직” 과 “휴직” 메뉴를 선택할 수 있게 합니다
